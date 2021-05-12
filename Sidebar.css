@@ -95,7 +95,7 @@
 .Tab[data-active="true"][data-color="blue"] {
   background: linear-gradient(to right, transparent, #37adff);
   /* Start Border Styling */
-  border-color: #1FA2FF #0A99FF #0A99FF #0A99FF; /* #005FA3 #1FA2FF #1FA2FF #005FA3; */
+  border-color: #1FA2FF #0A99FF #0A99FF #0A99FF;
   border-width: 4px;
   text-align: center;
   border-style: outset;
@@ -104,15 +104,43 @@
 }
 .Tab[data-active="true"][data-color="orange"] {
   background: linear-gradient(to right, transparent, #FF9F00);
+  /* Start Border Styling */
+  border-color: #FFB133 #E08A00 #E08A00 #FFB133;
+  border-width: 4px;
+  text-align: center;
+  border-style: outset;
+  /* End border styling */
+  transition: 0ms;
 }
 .Tab[data-active="true"][data-color="green"] {
   background: linear-gradient(to right, transparent, #51CD00);
+  /* Start Border Styling */
+  border-color: #5AE000 #49B800 #49B800 #5AE000;
+  border-width: 4px;
+  text-align: center;
+  border-style: outset;
+  /* End border styling */
+  transition: 0ms;
 }
 .Tab[data-active="true"][data-color="pink"] {
   background: linear-gradient(to right, transparent, #FF4BDA);
+  /* Start Border Styling */
+  border-color: #FF70E2 #FF47DA #FF47DA #FF70E2;
+  border-width: 4px;
+  text-align: center;
+  border-style: outset;
+  /* End border styling */
+  transition: 0ms;
 }
 .Tab[data-active="true"][data-color="toolbar"] {
   background: linear-gradient(to right, transparent, #ffffff);
+  /* Start Border Styling */
+  border-color: #EBEBEB #999999 #999999 #EBEBEB;
+  border-width: 4px;
+  text-align: center;
+  border-style: outset;
+  /* End border styling */
+  transition: 0ms;
 }
 /* End Tab Selected Styling */
 
