@@ -36,6 +36,41 @@
   transition: 0.7s;
 }
 
+.Tab:hover[data-color="blue"]{
+ --tabs-height: 5rem;
+ --tabs-font-size: 16px;
+  background: linear-gradient(to right, transparent, #77beef);
+  transition: 0.7s;
+}
+
+.Tab:hover[data-color="orange"]{
+ --tabs-height: 5rem;
+ --tabs-font-size: 16px;
+  background: linear-gradient(to right, transparent, #fec058);
+  transition: 0.7s;
+}
+
+.Tab:hover[data-color="green"]{
+ --tabs-height: 5rem;
+ --tabs-font-size: 16px;
+  background: linear-gradient(to right, transparent, #71cb36);
+  transition: 0.7s;
+}
+
+.Tab:hover[data-color="pink"]{
+ --tabs-height: 5rem;
+ --tabs-font-size: 16px;
+  background: linear-gradient(to right, transparent, #ff8ce7);
+  transition: 0.7s;
+}
+
+.Tab:hover[data-color="toolbar"]{
+ --tabs-height: 5rem;
+ --tabs-font-size: 16px;
+  background: linear-gradient(to right, transparent, #c8c8c8);
+  transition: 0.7s;
+}
+
 .Tab:hover div.lvl-wrapper div.t-box > div.title {
  color: #FFFFFF;
  font-weight: 900;
