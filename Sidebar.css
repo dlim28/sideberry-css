@@ -4,7 +4,7 @@
   --tabs-font-size: 12px;
   --tabs-title-lines: 2;
 
-  /* Custom Tab variables */
+  /* custom Tab variables */
   --personal-container-color: #37adff;
   --work-container-color: #FF9F00;
   --banking-container-color: #51CD00;
@@ -31,17 +31,39 @@
 
 .Tab[data-lvl="1"] > div.lvl-wrapper > div.drag-layer{
   border-left: 1px solid white;
-  border-bottom: 1px solid white;
+}
+.Tab[data-lvl="1"] > div.lvl-wrapper > div.drag-layer:after {
+  content: "";
+  width:25%;
+  height:1px;
+  background-color:white;
+  position: absolute;
+  bottom:-1px;
 }
 
 .Tab[data-lvl="2"] > div.lvl-wrapper > div.drag-layer{
   border-left: 1px solid red;
-  border-bottom: 1px solid red;
+}
+.Tab[data-lvl="2"] > div.lvl-wrapper > div.drag-layer:after {
+  content: "";
+  width:25%;
+  height:1px;
+  background-color:red;
+  position: absolute;
+  bottom:-1px;
 }
 
 .Tab[data-lvl="3"] > div.lvl-wrapper > div.drag-layer{
   border-left: 1px solid blue;
   border-bottom: 1px solid blue;
+}
+.Tab[data-lvl="3"] > div.lvl-wrapper > div.drag-layer:after {
+  content: "";
+  width:25%;
+  height:1px;
+  background-color:blue;
+  position: absolute;
+  bottom:-1px;
 }
 /* End Tab Styling */
 
