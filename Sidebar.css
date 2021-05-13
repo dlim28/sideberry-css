@@ -34,7 +34,7 @@
 }
 .Tab[data-lvl="1"] > div.lvl-wrapper > div.drag-layer:after {
   content: "";
-  width:25%;
+  width:20%;
   height:1px;
   background-color:white;
   position: absolute;
@@ -46,7 +46,7 @@
 }
 .Tab[data-lvl="2"] > div.lvl-wrapper > div.drag-layer:after {
   content: "";
-  width:25%;
+  width:20%;
   height:1px;
   background-color:red;
   position: absolute;
@@ -55,13 +55,12 @@
 
 .Tab[data-lvl="3"] > div.lvl-wrapper > div.drag-layer{
   border-left: 1px solid blue;
-  border-bottom: 1px solid blue;
 }
 .Tab[data-lvl="3"] > div.lvl-wrapper > div.drag-layer:after {
   content: "";
-  width:25%;
+  width:20%;
   height:1px;
-  background-color:blue;
+  background-color: blue;
   position: absolute;
   bottom:-1px;
 }
