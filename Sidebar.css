@@ -4,7 +4,7 @@
   --tabs-font-size: 12px;
   --tabs-title-lines: 2;
 
-  /* custom Tab variables */
+  /* container color variables */
   --personal-container-color: #37adff;
   --work-container-color: #FF9F00;
   --banking-container-color: #51CD00;
@@ -29,41 +29,28 @@
   line-height: calc((var(--tabs-height) - var(--tabs-title-padding)) / var(--tabs-title-lines));
 }
 
-.Tab[data-lvl="1"] > div.lvl-wrapper > div.drag-layer{
-  border-left: 1px solid white;
-}
-.Tab[data-lvl="1"] > div.lvl-wrapper > div.drag-layer:after {
-  content: "";
-  width:20%;
-  height:1px;
-  background-color:white;
-  position: absolute;
-  bottom:-1px;
+.Tab[data-lvl="1"] > div.lvl-wrapper > div.drag-layer {
+ background-color: white;
+ width: 1px;
+ right: 10px;
 }
 
 .Tab[data-lvl="2"] > div.lvl-wrapper > div.drag-layer{
-  border-left: 1px solid red;
-}
-.Tab[data-lvl="2"] > div.lvl-wrapper > div.drag-layer:after {
-  content: "";
-  width:20%;
-  height:1px;
-  background-color:red;
-  position: absolute;
-  bottom:-1px;
+  border-left: 1px solid #B9E6FF;
 }
 
 .Tab[data-lvl="3"] > div.lvl-wrapper > div.drag-layer{
-  border-left: 1px solid blue;
+  border-left: 1px solid #5C95FF;
 }
-.Tab[data-lvl="3"] > div.lvl-wrapper > div.drag-layer:after {
-  content: "";
-  width:20%;
-  height:1px;
-  background-color: blue;
-  position: absolute;
-  bottom:-1px;
+
+.Tab[data-lvl="4"] > div.lvl-wrapper > div.drag-layer{
+  border-left: 1px solid #337AFF;
 }
+
+.Tab[data-lvl="5"] > div.lvl-wrapper > div.drag-layer{
+  border-left: 1px solid #99DBFF;
+}
+
 /* End Tab Styling */
 
 
